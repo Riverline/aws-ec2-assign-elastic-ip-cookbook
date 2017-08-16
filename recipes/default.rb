@@ -7,9 +7,9 @@
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe "python"
+include_recipe "poise-python"
 
-python_pip "aws-ec2-assign-elastic-ip" do
+python_package "aws-ec2-assign-elastic-ip" do
   action :upgrade
 end
 
